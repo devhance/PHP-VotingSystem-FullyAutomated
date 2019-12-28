@@ -1,0 +1,63 @@
+* {
+  font-family: Raleway !important;
+}
+
+section.login {
+  height: 100vh;
+  background: #292929;
+}
+
+section.login .container {
+  padding-top: 80px;
+  width: 400px !important;
+  margin: 0 auto;
+}
+
+section#voting {
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section#voting .container {
+  max-width: 900px !important;
+  margin: 0 auto;
+}
+
+section#voting .container .col {
+  padding-bottom: 20px;
+}
+
+section#voting .container .col p {
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+section#voting .container .col p span {
+  font-weight: bold;
+  color: #434343;
+}
+
+section#after-vote {
+  padding-top: 50px;
+  background-color: #292929;
+  height: 100%;
+}
+
+section#after-vote .container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+section#after-vote .container .card {
+  padding: 80px 40px;
+}
+
+section#admin {
+  padding-top: 5%;
+}
+
+section#admin .container {
+  max-width: 600px;
+}
+/*# sourceMappingURL=main.css.map */

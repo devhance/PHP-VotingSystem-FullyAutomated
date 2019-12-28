@@ -1,0 +1,63 @@
+* {
+    font-family: Raleway !important;
+}
+
+section.login {
+    height: 100vh;
+    background: #292929;
+
+    .container {
+        padding-top: 80px;
+        width: 400px !important;
+        margin: 0 auto;
+    }
+}
+
+section#voting {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .container {
+        max-width: 900px !important;
+        margin: 0 auto;
+
+        .col {
+            padding-bottom: 20px;
+
+            p {
+                font-size: 17px;
+                text-transform: capitalize;
+                span {
+                    font-weight: bold;
+                    color: #434343;
+                }
+            }
+        }
+    }
+}
+
+section#after-vote {
+    padding-top: 50px;
+    background-color: #292929;
+    height: 100%;
+
+    .container {
+        width: 300px;
+        margin: 0 auto;
+        .card {
+            padding: 80px 40px;
+            // padding-top: 40px;
+            // padding-bottom: 40px;
+            
+        }
+    }
+}
+
+section#admin {
+    padding-top: 5%;
+
+    .container {
+        max-width: 600px;
+    }
+}
