@@ -58,8 +58,9 @@ class LoginValidator {
         if ($this->data['password'] === $password) {
             session_start();
             $_SESSION['user'] = $this->data['username'];
+            $_SESSION['userType'] = $userType;
 
-            if ($voteCount === 1) {
+            if ($voteCount == 1) {
                 
                 $userType > 1 ? header('Location: admin/add-accounts.php') : header('Location: voting-page.php');
             } else {

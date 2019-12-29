@@ -6,7 +6,7 @@
         $account = new Account($_POST);
         $message = $account->validateStudent();
     }
-
+    include('../functions/inc/admin-session.php');
     include('../functions/inc/admin-header.php');
     include('../functions/inc/navbar.php');
 ?>

@@ -2,6 +2,10 @@
   font-family: Raleway !important;
 }
 
+body {
+  background: #F3F0F0;
+}
+
 section.login {
   height: 100vh;
   background: #292929;
@@ -51,6 +55,29 @@ section#after-vote .container {
 
 section#after-vote .container .card {
   padding: 80px 40px;
+}
+
+section#results {
+  padding-top: 50px;
+}
+
+section#results table {
+  background: white;
+}
+
+section#results span.name {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #33B0FF;
+}
+
+section#results span.tempo {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+section#results span.hidden {
+  display: none;
 }
 
 section#admin {

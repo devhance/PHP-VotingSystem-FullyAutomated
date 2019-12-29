@@ -6,13 +6,13 @@ class Vote {
 
     public function __construct($postData) {
         global $con;
-
         foreach($postData as $data) {
             // adds + 1 to votes 
             $query = mysqli_query($con, "UPDATE candidates SET votes = votes + 1 WHERE id = '$data'");
         }
 
         $this->castVote();
+        header('Location: after-vote.php');
     }
 
     public function castVote() {

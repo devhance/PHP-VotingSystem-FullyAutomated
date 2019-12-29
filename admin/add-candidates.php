@@ -7,8 +7,9 @@
 
     }
 
-
+    include('../functions/inc/admin-session.php');
     include('../functions/inc/admin-header.php');
+    include('../functions/inc/navbar.php');
 ?>
 
     <section id="admin">
